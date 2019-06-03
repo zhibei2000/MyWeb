@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			
+			.class{
+				height: 400px;
+				width:400px;
+				border: 1px solid red;
+				animation: mymv 10s infinite;
+				border-radius: 200px;
+			}
+			@keyframes mymv{
+				0%{margin-left: 0px; margin-top: 0px;}
+				25%{margin-left: 400px; margin-top: 0px;}
+				50%{margin-left: 400px; margin-top:400px;}
+				75%{margin-left: 0px; margin-top: 400px;}
+				100%{margin-left: 0px; margin-top: 0px;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="class"></div>
+	</body>
+</html>
